@@ -6,17 +6,6 @@ const sequelize = new Sequelize(DBName, DBUserName, DBPassword, {
   dialect: 'postgres',
 });
 
-// const connectDB = async (): Promise<void> => {
-//   try {
-//     await sequelize.authenticate();
-    
-//     // await sequelize.sync();
-//     console.log('Database connected');
-//   } catch (error) {
-//     console.error('Database Error:', error);
-//   }
-// };
-
 export {  sequelize };
 
 
